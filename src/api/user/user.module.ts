@@ -4,6 +4,7 @@ import { UserController } from './user.controller';
 import { Users } from './user.entity';
 import { UserService } from './user.service';
 import { AuthModule } from './auth/auth.module';
+import { ApiTags } from '@nestjs/swagger';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Users]), AuthModule],

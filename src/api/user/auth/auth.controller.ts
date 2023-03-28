@@ -17,7 +17,9 @@ import { AuthService } from './auth.service';
 import { Request } from 'express';
 import { Observable } from 'rxjs';
 import { UpdateResult } from 'typeorm';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Authentication')
 @Controller('auth')
 export class AuthController {
   @Inject(AuthService)
