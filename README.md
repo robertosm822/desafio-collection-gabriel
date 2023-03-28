@@ -94,3 +94,8 @@ $ docker-composer up -d
   "password": "12345678"
 }
 ```
+
+## Rota de acesso a Documentação Swagger:
+
+  `[GET] => http://localhost:3000/api`
+
